@@ -90,7 +90,7 @@ header .logo span:hover {
 header .nav {
     margin-left: auto;
     width: 350px;
-    height: 100px;
+    height: 15vh;
 }
 .nav.active {
     transform: translateX(0);
