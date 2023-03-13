@@ -413,6 +413,7 @@ footer span {
     .bar {
         display: block;
     }
+    
 }
 @media screen and (max-width: 540px) {
     .name .name__name > span {

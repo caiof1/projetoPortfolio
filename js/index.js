@@ -96,7 +96,15 @@ const projetos = {
         externalLinkProjeto: 'https://caiofernandes.tech/pokedex/',
         imgProjeto: '../img/Pokedex.png'
     },
-    length: 12
+    12: {
+        nomeProjeto: 'PokeWiki',
+        descricaoProjeto: 'É um acervo mostrando todos os pokemons(Todos os pokemons catalogados na API)',
+        linguagensProjeto: ['HTML', 'CSS', 'JS', 'PokeAPI'],
+        gitLinkProjeto: 'https://github.com/caiof1/projetoPokemon',
+        externalLinkProjeto: 'https://caiofernandes.tech/pokemon/',
+        imgProjeto: '../img/Pokemon.png'
+    },
+    length: 13
 }
 // Um objeto literal criado para armazenar os projetos em destaque
 const projetosDestaque = {
