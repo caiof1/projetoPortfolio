@@ -100,7 +100,7 @@ const projetos = {
         nomeProjeto: 'PokeWiki',
         descricaoProjeto: 'É um acervo mostrando todos os pokemons(Todos os pokemons catalogados na API)',
         linguagensProjeto: ['HTML', 'CSS', 'JS', 'PokeAPI'],
-        gitLinkProjeto: 'https://github.com/caiof1/projetoPokemon',
+        gitLinkProjeto: 'https://github.com/caiof1/projeto_Pokemon',
         externalLinkProjeto: 'https://caiofernandes.tech/pokemon/',
         imgProjeto: '../img/Pokemon.png'
     },
