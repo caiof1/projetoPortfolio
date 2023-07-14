@@ -1,14 +1,6 @@
 // Um objeto literal criado para armazenar os projetos
 const projetos = {
     0: {
-        nomeProjeto: 'FA Turismo',
-        descricaoProjeto: 'É um projeto com um design próprio, para uma empresa ficticia chamada FA turismo.',
-        linguagensProjeto: ['HTML', 'CSS', 'JS'],
-        gitLinkProjeto: 'https://github.com/caiof1/ProjetoTurismo',
-        externalLinkProjeto: 'https://caiofernandes.tech/fa_turismo/',
-        imgProjeto: '../img/Fa_turismo.png'
-    },
-    1: {
         nomeProjeto: 'Pagina de Produto',
         descricaoProjeto: 'É uma pagina com design próprio, para uma empresa de moda ficticia. Foi a minha primeira interação com sliders',
         linguagensProjeto: ['HTML', 'CSS', 'JS'],
@@ -16,31 +8,7 @@ const projetos = {
         externalLinkProjeto: 'https://caiofernandes.tech/pagina_produto/',
         imgProjeto: '../img/PaginaProduto.png'
     },
-    2: {
-        nomeProjeto: 'Tela de login',
-        descricaoProjeto: 'É uma tela de login criada para um banco, com o proposito de fazer login ou criar a conta do cliente',
-        linguagensProjeto: ['HTML', 'CSS'],
-        gitLinkProjeto: 'https://github.com/caiof1/projetoTelaLogin',
-        externalLinkProjeto: 'https://caiofernandes.tech/tela_login/',
-        imgProjeto: '../img/PaginaLogin.png'
-    },
-    3: {
-        nomeProjeto: 'Game Mata mosquito',
-        descricaoProjeto: 'É um joguinho de matar mosquito, na sua maior parte, utilizando JS e também usando o localStorage do navegador',
-        linguagensProjeto: ['HTML', 'CSS', 'JS'],
-        gitLinkProjeto: 'https://github.com/caiof1/projetoMataMosquito',
-        externalLinkProjeto: 'https://caiofernandes.tech/mata_mosquito/html/',
-        imgProjeto: '../img/MataMosquito.png'
-    },
-    4: {
-        nomeProjeto: 'Game Super Mario',
-        descricaoProjeto: 'É uma recriação do super mario, feito de um jeito mais simples por ser em navegador. Em sua principal linguagem sendo JS',
-        linguagensProjeto: ['HTML', 'CSS', 'JS'],
-        gitLinkProjeto: 'https://github.com/caiof1/projetoSuperMario',
-        externalLinkProjeto: 'https://caiofernandes.tech/super_mario/',
-        imgProjeto: '../img/SuperMario.png'
-    },
-    5: {
+    1: {
         nomeProjeto: 'Noticias cidade',
         descricaoProjeto: 'Projeto de um site de noticias, não sendo responsivo, já que quando o fiz, não sabia deixar um site responsivo',
         linguagensProjeto: ['HTML', 'CSS'],
@@ -48,67 +16,7 @@ const projetos = {
         externalLinkProjeto: 'https://caiofernandes.tech/noticias_cidade',
         imgProjeto: '../img/NoticiasCidade.png'
     },
-    6: {
-        nomeProjeto: 'Museu nacional',
-        descricaoProjeto: 'Projeto do museu nacional, não sendo responsivo, já que quando o fiz, não sabia deixar um site responsivo',
-        linguagensProjeto: ['HTML', 'CSS'],
-        gitLinkProjeto: 'https://github.com/caiof1/projetoMuseuNacional',
-        externalLinkProjeto: 'https://caiofernandes.tech/museu_nacional',
-        imgProjeto: '../img/MuseuNacional.png'
-    },
-    7: {
-        nomeProjeto: 'Spotify',
-        descricaoProjeto: 'É uma recriação da home do spotify, que fiz utilizando BOOSTRAP',
-        linguagensProjeto: ['HTML', 'CSS', 'BOOSTRAP', 'FONTAWESOME'],
-        gitLinkProjeto: 'https://github.com/caiof1/projetoSpofity',
-        externalLinkProjeto: 'https://caiofernandes.tech/spotify/',
-        imgProjeto: '../img/Spotify.png'
-    },
-    8: {
-        nomeProjeto: 'Finans',
-        descricaoProjeto: 'Site ficticio de finanças, onde podemos visualizar o trabalho da empresa',
-        linguagensProjeto: ['HTML', 'CSS', 'BOOSTRAP', 'FONTAWESOME'],
-        gitLinkProjeto: 'https://github.com/caiof1/projetoFinans',
-        externalLinkProjeto: 'https://caiofernandes.tech/finans/',
-        imgProjeto: '../img/Finans.png'
-    },
-    9: {
-        nomeProjeto: 'Orçamento pessoal',
-        descricaoProjeto: 'Projeto que foi desenvolvido utilizando localStorage, servindo para armazenar gastos do dia a dia',
-        linguagensProjeto: ['HTML', 'CSS', 'JS', 'JS OO', 'BOOSTRAP'],
-        gitLinkProjeto: 'https://github.com/caiof1/projetoOrcamentoPessoal',
-        externalLinkProjeto: 'https://caiofernandes.tech/orcamento_pessoal/index.html',
-        imgProjeto: '../img/OrcamentoPessoal.png'
-    },
-    10: {
-        nomeProjeto: 'Calculadora',
-        descricaoProjeto: 'Uma calculadora desenvolvida novamente, com o próposito de conferir como eu evolui',
-        linguagensProjeto: ['HTML', 'CSS', 'JS'],
-        gitLinkProjeto: 'https://github.com/caiof1/projetoCalculadora',
-        externalLinkProjeto: 'https://caiofernandes.tech/calculadora/',
-        imgProjeto: '../img/Calculadora.png'
-    },
-    11: {
-        nomeProjeto: 'Pokedex',
-        descricaoProjeto: 'É uma pokedex criada utilizando uma api chamada PokeAPI. Foi a minha primeira interação com API, é um site de 2022/07',
-        linguagensProjeto: ['HTML', 'CSS', 'JS', 'PokeAPI'],
-        gitLinkProjeto: 'https://github.com/caiof1/projetoPokedex',
-        externalLinkProjeto: 'https://caiofernandes.tech/pokedex/',
-        imgProjeto: '../img/Pokedex.png'
-    },
-    12: {
-        nomeProjeto: 'PokeWiki',
-        descricaoProjeto: 'É um acervo mostrando todos os pokemons(Todos os pokemons catalogados na API)',
-        linguagensProjeto: ['HTML', 'CSS', 'JS', 'PokeAPI'],
-        gitLinkProjeto: 'https://github.com/caiof1/projeto_Pokemon',
-        externalLinkProjeto: 'https://caiofernandes.tech/pokemon/',
-        imgProjeto: '../img/Pokemon.png'
-    },
-    length: 13
-}
-// Um objeto literal criado para armazenar os projetos em destaque
-const projetosDestaque = {
-    1: {
+    2: {
         nomeProjeto: 'Game Mata mosquito',
         descricaoProjeto: 'É um joguinho de matar mosquito, na sua maior parte, utilizando JS e também usando o localStorage do navegador',
         linguagensProjeto: ['HTML', 'CSS', 'JS'],
@@ -116,7 +24,7 @@ const projetosDestaque = {
         externalLinkProjeto: 'https://caiofernandes.tech/mata_mosquito/html/',
         imgProjeto: '../img/MataMosquito.png'
     },
-    2: {
+    3: {
         nomeProjeto: 'Game Super Mario',
         descricaoProjeto: 'É uma recriação do super mario, feito de um jeito mais simples por ser em navegador. Em sua principal linguagem sendo JS',
         linguagensProjeto: ['HTML', 'CSS', 'JS'],
@@ -124,13 +32,82 @@ const projetosDestaque = {
         externalLinkProjeto: 'https://caiofernandes.tech/super_mario/',
         imgProjeto: '../img/SuperMario.png'
     },
-    3: {
+    
+    4: {
+        nomeProjeto: 'Museu nacional',
+        descricaoProjeto: 'Projeto do museu nacional, não sendo responsivo, já que quando o fiz, não sabia deixar um site responsivo',
+        linguagensProjeto: ['HTML', 'CSS'],
+        gitLinkProjeto: 'https://github.com/caiof1/projetoMuseuNacional',
+        externalLinkProjeto: 'https://caiofernandes.tech/museu_nacional',
+        imgProjeto: '../img/MuseuNacional.png'
+    },
+    5: {
+        nomeProjeto: 'Spotify',
+        descricaoProjeto: 'É uma recriação da home do spotify, que fiz utilizando BOOSTRAP',
+        linguagensProjeto: ['HTML', 'CSS', 'BOOSTRAP', 'FONTAWESOME'],
+        gitLinkProjeto: 'https://github.com/caiof1/projetoSpofity',
+        externalLinkProjeto: 'https://caiofernandes.tech/spotify/',
+        imgProjeto: '../img/Spotify.png'
+    },
+    6: {
+        nomeProjeto: 'Finans',
+        descricaoProjeto: 'Site ficticio de finanças, onde podemos visualizar o trabalho da empresa',
+        linguagensProjeto: ['HTML', 'CSS', 'BOOSTRAP', 'FONTAWESOME'],
+        gitLinkProjeto: 'https://github.com/caiof1/projetoFinans',
+        externalLinkProjeto: 'https://caiofernandes.tech/finans/',
+        imgProjeto: '../img/Finans.png'
+    },
+    7: {
+        nomeProjeto: 'Orçamento pessoal',
+        descricaoProjeto: 'Projeto que foi desenvolvido utilizando localStorage, servindo para armazenar gastos do dia a dia',
+        linguagensProjeto: ['HTML', 'CSS', 'JS', 'JS OO', 'BOOSTRAP'],
+        gitLinkProjeto: 'https://github.com/caiof1/projetoOrcamentoPessoal',
+        externalLinkProjeto: 'https://caiofernandes.tech/orcamento_pessoal/index.html',
+        imgProjeto: '../img/OrcamentoPessoal.png'
+    },
+    8: {
+        nomeProjeto: 'Calculadora',
+        descricaoProjeto: 'Uma calculadora desenvolvida novamente, com o próposito de conferir como eu evolui',
+        linguagensProjeto: ['HTML', 'CSS', 'JS'],
+        gitLinkProjeto: 'https://github.com/caiof1/projetoCalculadora',
+        externalLinkProjeto: 'https://caiofernandes.tech/calculadora/',
+        imgProjeto: '../img/Calculadora.png'
+    },
+    9: {
         nomeProjeto: 'Pokedex',
         descricaoProjeto: 'É uma pokedex criada utilizando uma api chamada PokeAPI. Foi a minha primeira interação com API, é um site de 2022/07',
         linguagensProjeto: ['HTML', 'CSS', 'JS', 'PokeAPI'],
         gitLinkProjeto: 'https://github.com/caiof1/projetoPokedex',
         externalLinkProjeto: 'https://caiofernandes.tech/pokedex/',
         imgProjeto: '../img/Pokedex.png'
+    },
+    length: 10
+}
+// Um objeto literal criado para armazenar os projetos em destaque
+const projetosDestaque = {
+    1: {
+        nomeProjeto: 'Museu nacional',
+        descricaoProjeto: 'Projeto do museu nacional, não sendo responsivo, já que quando o fiz, não sabia deixar um site responsivo',
+        linguagensProjeto: ['HTML', 'CSS'],
+        gitLinkProjeto: 'https://github.com/caiof1/projetoMuseuNacional',
+        externalLinkProjeto: 'https://caiofernandes.tech/museu_nacional',
+        imgProjeto: '../img/MuseuNacional.png'
+    },
+    2: {
+        nomeProjeto: 'Finans',
+        descricaoProjeto: 'Site ficticio de finanças, onde podemos visualizar o trabalho da empresa',
+        linguagensProjeto: ['HTML', 'CSS', 'BOOSTRAP', 'FONTAWESOME'],
+        gitLinkProjeto: 'https://github.com/caiof1/projetoFinans',
+        externalLinkProjeto: 'https://caiofernandes.tech/finans/',
+        imgProjeto: '../img/Finans.png'
+    },
+    3: {
+        nomeProjeto: 'Spotify',
+        descricaoProjeto: 'É uma recriação da home do spotify, que fiz utilizando BOOSTRAP',
+        linguagensProjeto: ['HTML', 'CSS', 'BOOSTRAP', 'FONTAWESOME'],
+        gitLinkProjeto: 'https://github.com/caiof1/projetoSpofity',
+        externalLinkProjeto: 'https://caiofernandes.tech/spotify/',
+        imgProjeto: '../img/Spotify.png'
     },
     length: 3
     
